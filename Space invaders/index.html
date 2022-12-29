@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+
+    <h2 class="text-color"> SCORE : <span class="results"></span></h2>
+    <h3 class="text-color">keyboard Controls</h3>
+    <h4 class="text-color"> Shoot : W </h4>
+    <h4 class="text-color"> Move Left : Arrow Left ◀</h4>
+    <h4 class="text-color"> Move Right : Arrow Right ►</h4>
+    <div class="wrap">
+        <button class="button" onclick="window.location.reload()">START</button>
+    </div>
+    <div class="wrap">
+        <button class="button" onClick='window.location.href= "../index.html"'>Back</button>
+    </div>
+    
+    
+
+    <div class="parent-div">
+    
+        <!--we start by creating the main grid-->
+        <!--we will add all the other divs in the main div using javascript-->
+         <div class = "grid"></div>
+
+    </div>
+
+    
+  
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- All javascript methods used in this project -->
+
+<!-- .querySelector() -->
+<!-- .createElement()  -->
+<!-- .appendChild() -->
+<!-- Array.from() -->
+<!-- .querySelectorAll() -->
+<!-- .length() -->
+<!-- includes()  -->
+<!-- .classList.add() -->
+<!-- .classList.remove() -->
+<!-- .classList.contains() -->
+<!-- clearInterval() -->
+<!-- setInterval() -->
+<!-- .innerHTML  -->
+<!-- setTimeout() -->
+<!-- switch() -->
+<!-- e.key -->
